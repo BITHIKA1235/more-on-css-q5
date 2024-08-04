@@ -1,0 +1,42 @@
+/* General reset and basic styling for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; /* Default font for body text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.heading {
+    font-family: 'Ostwald', sans-serif; /* Heading font */
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Main content styling */
+main {
+    text-align: center;
+    margin: 20px;
+}
+
+.google-fonts-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: adds rounded corners to the image */
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif; /* Paragraph font */
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-top: 20px;
+    max-width: 800px; /* Optional: limits the width of the paragraph for better readability */
+}
